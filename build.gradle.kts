@@ -24,17 +24,16 @@ repositories {
 
 dependencies {
 
-
-    implementation("org.apache.kafka:kafka-streams")
-
-
     implementation("org.springframework.boot:spring-boot-starter-webflux")
     implementation("org.springframework.kafka:spring-kafka")
     implementation("org.springframework.boot:spring-boot-starter-actuator")
 
+
+    implementation("org.apache.kafka:kafka-streams")
+
+
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor")
     implementation("io.projectreactor.kotlin:reactor-kotlin-extensions")
-
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-jdk8")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
